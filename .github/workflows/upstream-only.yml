@@ -1,0 +1,7 @@
+name: Upstream-only workflow
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo upstream-only
